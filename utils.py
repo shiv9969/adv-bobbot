@@ -753,7 +753,7 @@ def get_media_from_message(message: "Message"):
         "video_note",
     )
     for attr in media_types:
-        if media := getattr(message, attr, None):
+        if media : getattr(message, attr, None):
             return media
         
 def get_name(media_msg: Message) -> str:
