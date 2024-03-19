@@ -317,7 +317,7 @@ async def start(client, message):
                         InlineKeyboardButton("❗How To Open Link❗", url="https://t.me/kaisekhole/4")
                 ]]
                 await message.reply_text(
-                    text="<b>You are not verified !\nKindly verify to continue for next 24 hours! </b>",
+                    text="<b>Just Verify One Time And Get Movies For next 12hr without any verification \nबस एक बार verify करें और बिना किसी verification के अगले 12 घंटों के लिए फिल्में प्राप्त करें \nClick The Button Below To Check How to Verify ✅ </b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -397,7 +397,7 @@ async def start(client, message):
                         InlineKeyboardButton("❗How To Open Link❗", url="https://t.me/kaisekhole/4")
                 ]]
                 await message.reply_text(
-                    text="<b>You are not verified !\nKindly verify to continue !</b>",
+                    text="<b>Just Verify One Time And Get Movies For next 12hr without any verification \nबस एक बार verify करें और बिना किसी verification के अगले 12 घंटों के लिए फिल्में प्राप्त करें \nClick The Button Below To Check How to Verify ✅</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -474,7 +474,7 @@ async def start(client, message):
                         InlineKeyboardButton("❗How To Open Link❗", url="https://t.me/kaisekhole/4")
         ]]
         await message.reply_text(
-            text="<b>You are not verified !\nKindly verify to continue !</b>",
+            text="<b>Just Verify One Time And Get Movies For next 12hr without any verification \nबस एक बार verify करें और बिना किसी verification के अगले 12 घंटों के लिए फिल्में प्राप्त करें \nClick The Button Below To Check How to Verify ✅</b>",
             protect_content=True,
             reply_markup=InlineKeyboardMarkup(btn)
         )
